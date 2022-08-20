@@ -1,3 +1,8 @@
-#Pentagon
+class Pentagon:
+    def __init__(self, my_dimensions):
+        self.sidelength = my_dimensions
 
-#This is another test comment to try out Git in pycharm.
+    def perimeter(self):
+        myside_split = self.sidelength.split(",")
+        myside = myside_split[1]
+        return 5*(float(myside))
